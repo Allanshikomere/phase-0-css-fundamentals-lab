@@ -3,3 +3,23 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+ max-width: 800px;
+ margin:auto;
+ text-align: center; 
+}
+#featured-property {
+  max-width: 800px; /* Set a maximum width for better readability on larger screens */
+  margin: 0 auto; /* Center the section horizontally by setting left and right margins to auto */
+  text-align: left; /* Align the text inside the section to the left (optional, adjust as needed) */
+}
+#details {
+  display: flex;
+  background-color: red;
+  justify-content: space-between;
+  flex: 1;
+}
+#details > div {
+  padding: 10px;
+  margin: 5px; /* Adjust this value to add space between the borders */
+}
